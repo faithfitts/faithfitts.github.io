@@ -54,10 +54,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   .headerimage {
   width: 100%;
   height: 100vh;
-  background-image: url('../assets/img/OceanImage.jpg');
+  /* background-image: url('../assets/img/ProfileImage.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: 500px;
+  position: relative; */
   }
 
 body {
@@ -68,7 +68,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #0A192F; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -1988,7 +1988,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary {
   color: #032a9d;
-  border-color: #032a9d; }
+  border-color: #08FDD8; }
   .btn-outline-primary:hover {
     color: #fff;
     background-color: #032a9d;
@@ -4214,7 +4214,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #0a192f;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -4714,7 +4714,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #032a9d !important; }
+  background-color: #0A192F !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4738,7 +4738,7 @@ button.bg-success:focus {
   background-color: #1e7e34 !important; }
 
 .bg-info {
-  background-color: #17a2b8 !important; }
+  background-color: #08fdd8 !important; }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
@@ -4784,19 +4784,19 @@ button.bg-dark:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 0.125rem solid #dee2e6 !important; }
+  border: 0.125rem solid #97a0ba !important; }
 
 .border-top {
-  border-top: 0.125rem solid #dee2e6 !important; }
+  border-top: 0.125rem solid #97a0ba !important; }
 
 .border-right {
-  border-right: 0.125rem solid #dee2e6 !important; }
+  border-right: 0.125rem solid #97a0ba !important; }
 
 .border-bottom {
-  border-bottom: 0.125rem solid #dee2e6 !important; }
+  border-bottom: 0.125rem solid #97a0ba !important; }
 
 .border-left {
-  border-left: 0.125rem solid #dee2e6 !important; }
+  border-left: 0.125rem solid #97a0ba !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -7040,6 +7040,12 @@ button.bg-dark:focus {
 .text-white {
   color: #fff !important; }
 
+.text-blue {
+  color: #08FDD8 !important; }
+
+.text-purple {
+  color: #97a0ba !important; }
+
 .text-primary {
   color: #032a9d !important; }
 
@@ -7297,13 +7303,13 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 200px);
+    padding-top: calc(3rem + 200px);
     padding-bottom: 6rem; }
     .masthead .masthead-heading {
-      font-size: 150px;
+      font-size: 100px;
       line-height: 3.5rem; }
     .masthead .masthead-subheading {
-      font-size: 45px; } }
+      font-size: 30px; } }
 
 .portfolio .portfolio-item {
   cursor: pointer;
@@ -7341,7 +7347,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #032a9d;
+  color: #08fdd8;
   opacity: 1; }
 
 .floating-label-form-group {

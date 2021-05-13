@@ -20,9 +20,9 @@
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT ME</a>
-                        </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJECTS</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT ME</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#tech">TECH</a>
                         </li>
@@ -32,37 +32,497 @@
                 </div>
             </div>
         </nav>
-        <header class="masthead headerimage text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+        <header class="masthead headerimage bg-primary text-white text-left">
+            <div class="container d-flex align-items-left flex-column">
 
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-5">Faith Fitts</h1>
-                <br>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <br>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <h1 class="masthead-heading mb-5">Hello,<br><br>I'm Faith</h1>
                 <!-- Masthead Subheading-->
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Software Engineer<br>Full Stack Developer</p>
+                <p class="pre-wrap masthead-subheading font-weight-light text-purple mb-0">Software Engineer / Full Stack Developer</p>
             </div>
+            <br><br><br>
+            <!-- Resume Button-->
+    <div class="container d-flex align-items-left">
+        <a class="btn btn-xl btn-outline-primary text-blue" href="mailto:faithfitts@gmail.com" target="_blank">
+            Contact Me!
+        </a>
+    </div>
           </div>
         </header>
 
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <!-- Portfolio Section -->
+        <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <!-- About Section Heading-->
-                <div class="text-center">
-                    <h2 class="page-section-heading d-inline-block text-white">ABOUT ME</h2>
+                <!-- Portfolio Section Heading-->
+                <div class="text-left">
+                    <h2 class="page-section-heading text-blue mb-0 d-inline-block">MY PORTFOLIO</h2>
+                    <br>
+                    <p class="pre-wrap lead text-purple mb-0 d-inline-block">A collection of recent projects that I've created utilizing a variety of frameworks and programming languages. <br>Click on a project to see the app in action or to view the code via my GitHub account.
                 </div>
+                <br>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-dark">
+                <!-- <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
+                </div> -->
+                <!-- Portfolio Grid Items -->
+                <!-- Image Size: 900px height by 650px width -->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items -->
+                    <!-- Weather Forecaster -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/weatherforecaster/logo.png" alt="Weather Forecaster"/>
+                        </div>
+                    </div>
+                    <!-- Good Grounds 2 -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/goodgrounds2/main.png" alt="Good Grounds 2"/>
+                        </div>
+                    </div>
+                    <!-- Flowers As Medicine -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/fam/logo.png" alt="Flowers As Medicine"/>
+                        </div>
+                    </div>
+                    <!-- Code-Laborate -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/codelaborate/logo.png" alt="Code-Laborate"/>
+                        </div>
+                    </div>
+                    <!-- Good Grounds -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/goodgrounds/main.png" alt="Good Grounds"/>
+                        </div>
+                    </div>
+                    <!-- Tic-Tac-Toe! -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/tictactoe/main.png" alt="Tic - Tac - Toe!"/>
+                        </div>
+                    </div>
                 </div>
+            </div>
+</section>
+        <!-- Tic-Tac-Toe Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Tic-Tac-Toe Modal - Title-->
+                                    <h1 class="portfolio-modal-title text-purple mb-5">Tic - Tac - Toe!</h1>
+                                    <!-- Icon Divider-->
+                                    <!-- <div class="divider-custom text-purple">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div> -->
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.37.10 PM.png" alt="Tic - Tac - Toe!"/> -->
+
+        <!-- Tic-Tac-Toe Portfolio Image Carousel -->
+        <div id="carouselTicTacToe" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselTicTacToe" data-slide-to="0" class="active tik bg-info"></li>
+                <li data-target="#carouselTicTacToe" data-slide-to="1" class="tik bg-info"></li>
+                <li data-target="#carouselTicTacToe" data-slide-to="2" class="tik bg-info"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="tic-tac-toe-carousel">
+                    <div class="container">
+                        <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/tictactoe/main.png" alt="Tic - Tac - Toe!"/>
+                    </div>
+                </div>
+                <div class="carousel-item" id="portfolio-item-carousel">
+                    <div class="container">
+                      <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/tictactoe/GameStats.png" alt="Tic - Tac - Toe!"/>
+                    </div>
+                </div>
+                <div class="carousel-item" id="portfolio-item-carousel">
+                    <div class="container">
+                      <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/tictactoe/winner.png" alt="Tic - Tac - Toe!"/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <br>
+                                    <h5 class="text-purple mb-5">A game of Old School Tic-Tac-Toe imitating white chalk on a blackboard! This is a Front-End application that utilized: HTML, CSS (bootstrap), JavaScript, jQuery, and AJAX.<h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                        <a class="btn btn-xl btn-outline-primary text-blue" href="https://faithfitts.github.io/tic-tac-toe-project/" target="_blank">
+                                        Play Game!
+                                        </a>
+                                        </br></br>
+                                    <!-- Portfolio Modal - Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/tic-tac-toe-project" target="_blank">
+                                    View Repo!
+                                    </a>
+                                    <!-- </br></br>
+
+                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Good Grounds Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Good Grounds Modal - Title -->
+                                    <h1 class="portfolio-modal-title text-purple mb-5">Good Grounds</h1>
+                                    <!-- Good Grounds Image Carousel -->
+                                    <div id="carouselGoodGrounds" class="carousel slide">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselGoodGrounds" data-slide-to="0" class="active tik bg-info"></li>
+                                            <li data-target="#carouselGoodGrounds" data-slide-to="1" class="tik bg-info"></li>
+                                            <li data-target="#carouselGoodGrounds" data-slide-to="2" class="tik bg-info"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" id="good-grounds-carousel">
+                                                <div class="container">
+                                                    <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds/main.png" alt="Good Grounds"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds/menu.png" alt="MainMenu"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds/create.png" alt="Create Recipe"/>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Good Grounds Modal - Text-->
+                                    <br>
+                                    <h5 class="text-purple mb-5">A full stack application that allows users to post their unique coffee creations! Technologies used includes: HTML, CSS &amp; Bootstrap, JavaScript, jQuery, and AJAX.</h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                    <a class="btn btn-xl btn-outline-primary text-blue" href="https://faithfitts.github.io/Good-grounds-client/" target="_blank">
+                                    View App!
+                                    </a>
+                                    </br></br>
+                                    <!-- Portfolio Modal - Front-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/Good-grounds-client" target="_blank">
+                                    View Front-End Repo!
+                                    </a>
+                                    <!-- Portfolio Modal - Back-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/Good-Grounds" target="_blank">
+                                    View Back-End Repo!
+                                    </a>
+                                    </br></br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CodeLaborate Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- CodeLaborate Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-purple mb-5">Code-Laborate</h2>
+
+                                    <!-- CodeLaborate Image Carousel -->
+                                    <div id="carouselCodeLaborate" class="carousel slide">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselCodeLaborate" data-slide-to="0" class="active tik bg-info"></li>
+                                            <li data-target="#carouselCodeLaborate" data-slide-to="1" class="tik bg-info"></li>
+                                            <li data-target="#carouselCodeLaborate" data-slide-to="2" class="tik bg-info"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" id="CodeLaborate">
+                                                <div class="container">
+                                                    <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/codelaborate/signin.png" alt="Code-Laborate"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/codelaborate/allquestions.png" alt="All Questions"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/codelaborate/question.png" alt="Example Question"/>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <br>
+                                    <h5 class="text-purple mb-5">Code-Laborate is an application that allows Development students share their code and solve problems as a team! A user can log-in to the application and start posting problems on the board as well as replying to other user's posts with comments of their own.</h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                    <a class="btn btn-xl btn-outline-primary text-blue" href="https://super-props.github.io/code-laborate-front-end/#/" target="_blank">
+                                    View App!
+                                    </a>
+                                    </br></br>
+                                    <!-- Portfolio Modal - Front-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/super-props/code-laborate-front-end" target="_blank">
+                                    View Front-End Repo!
+                                    </a>
+                                    <!-- Portfolio Modal - Back-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/super-props/code-laborate-API" target="_blank">
+                                    View Back-End Repo!
+                                    </a>
+                                    </br></br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Flowers As Medicine -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- FAM Modal - Title-->
+                                    <h1 class="portfolio-modal-title text-purple mb-5">Flowers As Medicine</h1>
+                                    <!-- FAM Image Carousel -->
+                                    <div id="carouselFAM" class="carousel slide">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselFAM" data-slide-to="0" class="active tik bg-info"></li>
+                                            <li data-target="#carouselFAM" data-slide-to="1" class="tik bg-info"></li>
+                                            <li data-target="#carouselFAM" data-slide-to="2" class="tik bg-info"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" id="fam-carousel">
+                                                <div class="container">
+                                                    <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/fam/homepage.png" alt="HomePage"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/fam/main.png" alt="MainMenu"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/fam/comments.png" alt="Comments Example"/>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- FAM Modal - Text-->
+                                    <br>
+                                    <h5 class="text-purple mb-5">For centuries, cultures around the world have utilized the therapeutic properties of certain flowers in their daily lives. This site allows the user to read about the benefits of medicinal flowers/herbs. Also, users are able to leave comments about how they have used the flower as medicine!</h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                    <a class="btn btn-xl btn-outline-primary text-blue" href="https://faithfitts.github.io/FAM/#/" target="_blank">
+                                    View App!
+                                    </a>
+                                    </br></br>
+                                    <!-- Portfolio Modal - Front-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/FAM" target="_blank">
+                                    View Front-End Repo!
+                                    </a>
+                                    <!-- Portfolio Modal - Back-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/FAM-API" target="_blank">
+                                    View Back-End Repo!
+                                    </a>
+                                    </br></br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Good Grounds 2 Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Good Grounds Modal - Title -->
+                                  <h1 class="portfolio-modal-title text-purple mb-5">Good Grounds 2</h1>
+
+                                  <!-- Good Grounds Image Carousel -->
+                                  <div id="carouselGoodGrounds2" class="carousel slide">
+                                      <ol class="carousel-indicators">
+                                          <li data-target="#carouselGoodGrounds2" data-slide-to="0" class="active tik bg-info"></li>
+                                          <li data-target="#carouselGoodGrounds2" data-slide-to="1" class="tik bg-info"></li>
+                                          <li data-target="#carouselGoodGrounds2" data-slide-to="2" class="tik bg-info"></li>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                          <div class="carousel-item active" id="good-grounds-2-carousel">
+                                              <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds2/main.png" alt="Good Grounds 2"/>
+                                              </div>
+                                          </div>
+                                          <div class="carousel-item" id="portfolio-item-carousel">
+                                              <div class="container">
+                                                <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds2/creations.png" alt="Creations"/>
+                                              </div>
+                                          </div>
+                                          <div class="carousel-item" id="portfolio-item-carousel">
+                                              <div class="container">
+                                                <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/goodgrounds2/create.png" alt="Create Recipe"/>
+
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <!-- Good Grounds 2 Modal - Text-->
+                                  <br>
+                                  <h5 class="text-purple mb-5">Good Grounds 2 is a recreation of my original full-stack application "Good Grounds". Aside from some minor visual enhancements, Good Grounds 2 allows the user to post their coffee creations just like the original app. However, I used different technologies in the front end and back end. Technologies used includes: Django, Python, JavaScript, PostgreSQL, BootStrap &amp; CSS.</h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                    <a class="btn btn-xl btn-outline-primary text-blue" href="https://faithfitts.github.io/Good_Grounds_2_frontend/#/" target="_blank">
+                                    View App!
+                                    </a>
+                                    </br></br>
+                                    <!-- Portfolio Modal - Front-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/Good_Grounds_2_frontend" target="_blank">
+                                    View Front-End Repo!
+                                    </a>
+                                    <!-- Portfolio Modal - Back-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/Good_Grounds_2_backend" target="_blank">
+                                    View Back-End Repo!
+                                    </a>
+                                    </br></br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Weather Forecaster Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Weather Forecaster Modal - Title -->
+                                    <h1 class="portfolio-modal-title text-purple mb-5">Weather Forecaster</h1>
+                                    <!-- Weather Forecaster Image Carousel -->
+                                    <div id="carouselWeatherForecaster" class="carousel slide">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselWeatherForecaster" data-slide-to="0" class="active tik bg-info"></li>
+                                            <li data-target="#carouselWeatherForecaster" data-slide-to="1" class="tik bg-info"></li>
+                                            <li data-target="#carouselWeatherForecaster" data-slide-to="2" class="tik bg-info"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" id="weather-forecaster-carousel">
+                                                <div class="container">
+                                                    <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/weatherforecaster/ClearWeather.png" alt="Clear Weather"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/weatherforecaster/CloudyWeather.png" alt="Cloudy Weather"/>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" id="portfolio-item-carousel">
+                                                <div class="container">
+                                                  <img class="img-fluid rounded mb-5 border" src="assets/img/portfolio/weatherforecaster/RainyWeather.png" alt="Rainy Weather"/>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Good Grounds Modal - Text-->
+                                    <br>
+                                    <h5 class="text-purple mb-5">A Front-End application utilizing a third-party API to bring you the local weather conditions! Enter a valid US zip code and you will get the temperature, humidity, precipitation, and more. Plus, the background will change depending on the weather condition.</h5>
+                                    <!-- Portfolio Modal - App Button-->
+                                    <a class="btn btn-xl btn-outline-primary text-blue" href="https://faithfitts.github.io/weather_forecaster/#/" target="_blank">
+                                    View App!
+                                    </a>
+                                    </br></br>
+                                    <!-- Portfolio Modal - Front-End Repo Button-->
+                                    <a class="btn btn-l btn-outline-primary text-blue" href="https://github.com/faithfitts/weather_forecaster" target="_blank">
+                                    View Repo!
+                                    </a>
+
+                                    </br></br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+        <!-- About Me -->
+        <section class="page-section bg-dark text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-blue">ABOUT ME</h2>
+                </div>
+                <!-- Icon Divider-->
+                <!-- <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> -->
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ml-auto">
@@ -80,275 +540,7 @@
           </div>
         </div>
       </div>
-        </section>
-
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <div class="text-center">
-                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PROJECTS</h2>
-                </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items -->
-                <!-- Image Size: 900px height by 650px width -->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Items -->
-                    <!-- Good Grounds 2 -->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Screen Shot 2021-04-02 at 9.43.50 AM.png" alt="Good Grounds 2"/>
-                        </div>
-                    </div>
-                    <!-- Flowers As Medicine -->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Screen Shot 2021-02-25 at 8.01.37 PM.png" alt="Flowers As Medicine"/>
-                        </div>
-                    </div>
-                    <!-- Code-Laborate -->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.46.44 PM.png" alt="Code-Laborate"/>
-                        </div>
-                    </div>
-                    <!-- Good Grounds -->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.30.06 PM.png" alt="Good Grounds"/>
-                        </div>
-                    </div>
-                    <!-- Tic-Tac-Toe! -->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.37.10 PM.png" alt="Tic - Tac - Toe!"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Tic - Tac - Toe!</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.37.10 PM.png" alt="Tic - Tac - Toe!"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">A game of Old School Tic-Tac-Toe imitating white chalk on a blackboard! This is a Front-End application that utilized: HTML, CSS (bootstrap), JavaScript, jQuery, and AJAX.</p>
-                                    <!-- Portfolio Modal - App Button-->
-                                        <a class="btn btn-xl text-white bg-info" href="https://faithfitts.github.io/tic-tac-toe-project/" target="_blank">
-                                        Play Game!
-                                        </a>
-                                        </br></br>
-                                    <!-- Portfolio Modal - Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/tic-tac-toe-project" target="_blank">
-                                    View Repo!
-                                    </a>
-                                    </br></br>
-                                    <!-- Portfolio Modal - Close Button-->
-                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Good Grounds</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.30.06 PM.png" alt="Good Grounds"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">A full stack application that allows users to post their unique coffee creations! Technologies used includes: HTML, CSS &amp; Bootstrap, JavaScript, jQuery, and AJAX.</p>
-                                    <!-- Portfolio Modal - App Button-->
-                                    <a class="btn btn-xl text-white bg-info" href="https://faithfitts.github.io/Good-grounds-client/" target="_blank">
-                                    View App!
-                                    </a>
-                                    </br></br></br>
-                                    <!-- Portfolio Modal - Front-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/Good-grounds-client" target="_blank">
-                                    View Front-End Repo!
-                                    </a>
-                                    <!-- Portfolio Modal - Back-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/Good-Grounds" target="_blank">
-                                    View Back-End Repo!
-                                    </a>
-                                    </br></br>
-                                    <!-- Portfolio Modal - Close Button-->
-                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Code-Laborate</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-02-15 at 7.46.44 PM.png" alt="Code-Laborate"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Code-Laborate is an application that allows Development students share their code and solve problems as a team! A user can log-in to the application and start posting problems on the board as well as replying to other user's posts with comments of their own.</p>
-                                    <!-- Portfolio Modal - App Button-->
-                                    <a class="btn btn-xl text-white bg-info" href="https://super-props.github.io/code-laborate-front-end/#/" target="_blank">
-                                    View App!
-                                    </a>
-                                    </br></br></br>
-                                    <!-- Portfolio Modal - Front-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/super-props/code-laborate-front-end" target="_blank">
-                                    View Front-End Repo!
-                                    </a>
-                                    <!-- Portfolio Modal - Back-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/super-props/code-laborate-API" target="_blank">
-                                    View Back-End Repo!
-                                    </a>
-                                    </br></br>
-                                    <!-- Portfolio Modal - Close Button-->
-                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Flowers As Medicine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-02-25 at 8.01.37 PM.png" alt="Flowers As Medicine"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">For centuries, cultures around the world have utilized the therapeutic properties of certain flowers in their daily lives. This site allows the user to read about the benefits of medicinal flowers/herbs. Also, users are able to leave comments about how they have used the flower as medicine!</p>
-                                    <!-- Portfolio Modal - App Button-->
-                                    <a class="btn btn-xl text-white bg-info" href="https://faithfitts.github.io/FAM/#/" target="_blank">
-                                    View App!
-                                    </a>
-                                    </br></br></br>
-                                    <!-- Portfolio Modal - Front-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/FAM" target="_blank">
-                                    View Front-End Repo!
-                                    </a>
-                                    <!-- Portfolio Modal - Back-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/FAM-API" target="_blank">
-                                    View Back-End Repo!
-                                    </a>
-                                    </br></br>
-                                    <!-- Portfolio Modal - Close Button-->
-                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Good Grounds 2</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screen Shot 2021-04-02 at 9.43.50 AM.png" alt="Good Grounds 2"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Good Grounds 2 is a recreation of my original full-stack application "Good Grounds". Aside from some minor visual enhancements, Good Grounds 2 allows the user to post their coffee creations just like the original app. However, I used different technologies in the front end and back end. Technologies used includes: Django, Python, JavaScript, PostgreSQL, BootStrap &amp; CSS.</p>
-                                    <!-- Portfolio Modal - App Button-->
-                                    <a class="btn btn-xl text-white bg-info" href="https://faithfitts.github.io/Good_Grounds_2_frontend/#/" target="_blank">
-                                    View App!
-                                    </a>
-                                    </br></br></br>
-                                    <!-- Portfolio Modal - Front-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/Good_Grounds_2_frontend" target="_blank">
-                                    View Front-End Repo!
-                                    </a>
-                                    <!-- Portfolio Modal - Back-End Repo Button-->
-                                    <a class="btn btn-l text-white bg-primary" href="https://github.com/faithfitts/Good_Grounds_2_backend" target="_blank">
-                                    View Back-End Repo!
-                                    </a>
-                                    </br></br>
-                                    <!-- Portfolio Modal - Close Button-->
-                                    <button class="btn btn-outline-light bg-danger" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </section>
 
         <!--Technology-->
         <section class="page-section bg-primary text-white mb-0" id="tech">
